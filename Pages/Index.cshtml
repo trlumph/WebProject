@@ -1,0 +1,38 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - WebProject</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+</head>
+<body>
+<header>
+    <nav>
+        <div>
+            <a asp-page="/Index">Home</a>
+        </div>
+    </nav>
+</header>
+<div>
+    <h1>Welcome</h1>
+    <p><strong>Visit my <a href="http://bonsaishop-env.eba-zbmam4wk.eu-central-1.elasticbeanstalk.com/Index">Bonsai Shop</a>.</strong></p>
+    <p>Might be down during development.</p>
+</div>
+
+<footer class="footer">
+    <div>
+        &copy; 2023 - Tymur Krasnianskyi
+    </div>
+</footer>
+
+<script src="~/js/site.js" asp-append-version="true"></script>
+
+</body>
+</html>
